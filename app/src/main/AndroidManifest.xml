@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tools"
+        android:label="ToolsWoW"
+        android:roundIcon="@mipmap/tools_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Calendar"></activity>
+        <activity android:name=".Chronometer" />
+        <activity android:name=".notePad" />
+        <activity android:name=".RandomNumbers" />
+        <activity
+            android:name=".Inicio"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
